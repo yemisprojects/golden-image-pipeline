@@ -1,11 +1,7 @@
 <h2 align="center">Image pipeline with Packer, AWS CodePipeline, and AWS Inspector</h2>
 
-This repository is used for my [medium blog post]()
-
 ![Solution](https://github.com/yemisprojects/golden-image-pipeline/blob/main/images/draw_io_golden_ami_pipeline.png)
 <h4 align="center"></h4>
-
-<h4 align="center">Image pipeline Architecture</h4>
 
 <h2 align="center">Technical overview</h2>
 
@@ -25,7 +21,7 @@ An assessment report with findings and recommendations from Inspector is sent in
 - Another AWS account to verify a shared AMI
 
 ## Deployment Steps
-See blog post for step by step guide deployment
+See my free [medium blog post](https://yemiodunade.medium.com/image-pipeline-with-packer-aws-codepipeline-and-aws-inspector-9e6e5dfafc83?sk=d3d30a80e3b72b02475451664023f352) for step by step guide deployment
 
 ## Blog Post
 
