@@ -2,10 +2,10 @@
 
 This repository is used for my [medium blog post]()
 
-<h2 align="center">Image pipeline Architecture</h2>
-
 ![Solution](https://github.com/yemisprojects/golden-image-pipeline/blob/main/images/draw_io_golden_ami_pipeline.png)
 <h4 align="center"></h4>
+
+<h4 align="center">Image pipeline Architecture</h4>
 
 <h2 align="center">Technical overview</h2>
 
