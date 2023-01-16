@@ -21,7 +21,7 @@ An assessment report with findings and recommendations from Inspector is sent in
 - Another AWS account to verify a shared AMI
 
 ## Deployment Steps
-See my free [medium blog post](https://yemiodunade.medium.com/image-pipeline-with-packer-aws-codepipeline-and-aws-inspector-9e6e5dfafc83?sk=d3d30a80e3b72b02475451664023f352) for step by step guide deployment
+See my free [medium blog post](https://yemiodunade.medium.com/image-pipeline-with-packer-aws-codepipeline-and-aws-inspector-9e6e5dfafc83?sk=d3d30a80e3b72b02475451664023f352) for step by step guide
 
 ## Blog Post
 
