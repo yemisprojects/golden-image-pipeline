@@ -1,5 +1,5 @@
 ################################################################################
-# CODEPIPELINE SLACK NOTIFICATION
+# CODEPIPELINE NOTIFICATION RULE
 ################################################################################
 resource "aws_codestarnotifications_notification_rule" "pipeline_status" {
 

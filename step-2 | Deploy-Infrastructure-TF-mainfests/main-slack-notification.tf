@@ -13,15 +13,7 @@ module "slack_notification" {
       detail_type            = "BASIC"
       notification_rule_name = "ami-pipeline-slack"
       pipeline_arn           = module.golden_ami_pipeline.codepipeline_arn
-      event_type_ids = [
-        "codepipeline-pipeline-pipeline-execution-started",
-        "codepipeline-pipeline-pipeline-execution-failed",
-        "codepipeline-pipeline-pipeline-execution-canceled",
-        "codepipeline-pipeline-pipeline-execution-succeeded",
-        "codepipeline-pipeline-manual-approval-needed",
-        "codepipeline-pipeline-manual-approval-succeeded",
-        "codepipeline-pipeline-manual-approval-failed"
-      ]
+      event_type_ids         = var.event_type_ids
     }
 
   }

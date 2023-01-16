@@ -57,4 +57,16 @@ variable "slack_workspace_id" {
   type        = string
 }
 
-
+variable "event_type_ids" {
+  description = "List of pipeline events to recieve notification on"
+  type        = list(string)
+  default = [
+    "codepipeline-pipeline-pipeline-execution-started",
+    "codepipeline-pipeline-pipeline-execution-failed",
+    "codepipeline-pipeline-pipeline-execution-canceled",
+    "codepipeline-pipeline-pipeline-execution-succeeded",
+    "codepipeline-pipeline-manual-approval-needed",
+    "codepipeline-pipeline-manual-approval-succeeded",
+    "codepipeline-pipeline-manual-approval-failed"
+  ]
+}

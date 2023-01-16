@@ -36,6 +36,10 @@ resource "aws_sns_topic" "this" {
   name = var.sns_topic_name
 }
 
+resource "aws_ses_email_identity" "findings_report" {
+  email = var.inspector_email_id
+}
+
 resource "aws_sns_topic_subscription" "this" {
   topic_arn = aws_sns_topic.this.arn
   protocol  = "email"
@@ -89,9 +93,7 @@ resource "aws_sns_topic_policy" "this" {
   })
 }
 
-resource "aws_ses_email_identity" "findings_report" {
-  email = var.inspector_email_id
-}
+
 
 ################################################################################
 # PARAMETER STORE AMI PIPELINE VARIABLES
