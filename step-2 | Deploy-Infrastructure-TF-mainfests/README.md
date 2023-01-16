@@ -10,7 +10,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws.cicd_act"></a> [aws.cicd\_act](#provider\_aws.cicd\_act) | >= 4.44.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.44.0 |
 
 ## Modules
 
@@ -34,6 +34,7 @@
 | <a name="input_ami_deploy_stage_name"></a> [ami\_deploy\_stage\_name](#input\_ami\_deploy\_stage\_name) | Name of deploy stage | `string` | `"Share-AMI"` | no |
 | <a name="input_ami_repo_name"></a> [ami\_repo\_name](#input\_ami\_repo\_name) | Name for the repository | `string` | `"golden-ami-repo"` | no |
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | Region to deploy resources | `string` | `"us-east-1"` | no |
+| <a name="input_event_type_ids"></a> [event\_type\_ids](#input\_event\_type\_ids) | List of pipeline events to recieve notification on | `list(string)` | <pre>[<br>  "codepipeline-pipeline-pipeline-execution-started",<br>  "codepipeline-pipeline-pipeline-execution-failed",<br>  "codepipeline-pipeline-pipeline-execution-canceled",<br>  "codepipeline-pipeline-pipeline-execution-succeeded",<br>  "codepipeline-pipeline-manual-approval-needed",<br>  "codepipeline-pipeline-manual-approval-succeeded",<br>  "codepipeline-pipeline-manual-approval-failed"<br>]</pre> | no |
 | <a name="input_inspector_email_id"></a> [inspector\_email\_id](#input\_inspector\_email\_id) | Eamil id for inspector assessment run notifications | `string` | n/a | yes |
 | <a name="input_pipeline_approval_email_id"></a> [pipeline\_approval\_email\_id](#input\_pipeline\_approval\_email\_id) | Eamil id for manual approval | `string` | n/a | yes |
 | <a name="input_scan_duration"></a> [scan\_duration](#input\_scan\_duration) | The duration in secs of the inspector run | `string` | `"300"` | no |
