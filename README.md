@@ -25,4 +25,4 @@ See my free [medium blog post](https://yemiodunade.medium.com/image-pipeline-wit
 
 ## Blog Post
 
-[![Image]( "Image pipeline with Packer, AWS CodePipeline, and AWS Inspector")]()
+[![Image](https://github.com/yemisprojects/golden-image-pipeline/blob/main/images/Published_post_snippet.png "Image pipeline with Packer, AWS CodePipeline, and AWS Inspector")](https://yemiodunade.medium.com/image-pipeline-with-packer-aws-codepipeline-and-aws-inspector-9e6e5dfafc83?sk=d3d30a80e3b72b02475451664023f352)
